@@ -1,0 +1,19 @@
+cluster.name: eywa
+
+node.name: "node1"
+
+node.master: true
+
+node.data: true
+
+node.max_local_storage_nodes: 1
+
+path.conf: /etc/elasticsearch/config
+
+path.data: /var/elasticsearch/data
+
+path.logs: /var/elasticsearch/logs
+
+network.host: 0.0.0.0
+
+http.enabled: true
